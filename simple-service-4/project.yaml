@@ -1,0 +1,4 @@
+# The project basic info
+name: myproject
+generator:
+  type: AppConfiguration
