@@ -31,14 +31,14 @@ helloworld: ac.AppConfiguration {
         replicas: 2
     }
     accessories: {
-        "network": n.Network {
-            ports: [
-                n.Port {
-                    port: 8080
-                    targetPort: 80
-                }
-            ]
-        }
+        # "network": n.Network {
+        #     ports: [
+        #         n.Port {
+        #             port: 8080
+        #             targetPort: 80
+        #         }
+        #     ]
+        # }
         "monitoring": m.Prometheus {
             path:           "/metrics"
         }

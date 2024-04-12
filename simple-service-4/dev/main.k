@@ -23,12 +23,12 @@ helloworld: ac.AppConfiguration {
             path:           "/metrics"
             port:           "web"
         }
-        "network": n.Network {
-            ports: [
-                n.Port {
-                    port: 80
-                }
-            ]
-        }
+        # "network": n.Network {
+        #     ports: [
+        #         n.Port {
+        #             port: 80
+        #         }
+        #     ]
+        # }
     }
 }
