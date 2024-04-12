@@ -1,0 +1,4 @@
+# The project basic info
+name: simple-service
+generator:
+  type: AppConfiguration
