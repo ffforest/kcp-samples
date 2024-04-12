@@ -1,8 +1,32 @@
 [dependencies]
-  [dependencies.catalog]
-    name = "catalog"
-    full_name = "catalog_0.1.0"
+  [dependencies.kam]
+    name = "kam"
+    full_name = "kam_0.1.0"
     version = "0.1.0"
-    sum = "9nAzXsUVVbIJieEc+8x97Sb7AxfdU7RyEm5mNYLTP3M="
-    url = "https://github.com/KusionStack/catalog.git"
+    sum = "Vp4mszb4aFrsbyy6phcvCH6YcqulES6PriOgg7NYr0U="
+    url = "https://github.com/KusionStack/kam.git"
     git_tag = "0.1.0"
+  [dependencies.monitoring]
+    name = "monitoring"
+    full_name = "monitoring_0.1.0"
+    version = "0.1.0"
+    sum = "FDpeQ3JNPx9kW6mEC6FLEKUysJxNUnd20T2ZRi6Quq0="
+    reg = "ghcr.io"
+    repo = "kusionstack/monitoring"
+    oci_tag = "0.1.0"
+  [dependencies.network]
+    name = "network"
+    full_name = "network_0.1.0"
+    version = "0.1.0"
+    sum = "QbzGNH7FeN+1lAf7XKsGWa61lTjJev4HxhK02yB1msw="
+    reg = "ghcr.io"
+    repo = "kusionstack/network"
+    oci_tag = "0.1.0"
+  [dependencies.opsrule]
+    name = "opsrule"
+    full_name = "opsrule_0.1.0"
+    version = "0.1.0"
+    sum = "fgaGH62uIXUWVk2yCD5oYttBaY8q2eUpHrmoQr0uP7M="
+    reg = "ghcr.io"
+    repo = "kusionstack/opsrule"
+    oci_tag = "0.1.0"
