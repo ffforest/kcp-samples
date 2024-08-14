@@ -1,10 +1,10 @@
 import kam.v1.app_configuration as ac
-import kam.v1.workload as wl
-import kam.v1.workload.container as c
+import service as svc
+import service.container as c
 import monitoring as m
 
 helloworld: ac.AppConfiguration {
-    workload: wl.Service {
+    workload: svc.Service {
         containers: {
             "helloworld": c.Container {
                 image = "gcr.io/google-samples/gb-frontend:v4"
