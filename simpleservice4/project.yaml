@@ -1,4 +1,4 @@
 # The project basic info
-name: myproject
+name: simpleservice4
 generator:
   type: AppConfiguration
