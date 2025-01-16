@@ -14,15 +14,15 @@ helloworld: ac.AppConfiguration {
                 image = "gcr.io/google-samples/gb-frontend:v5"
                 resources: {
                     "cpu": "500m"
-                    "memory": "512Mi"
+                    "memory": "1024Mi"
                 }
                 env: {
                     "aaa": "aaa"
-                    "basccaaa": "aaa"
+                    "bbb": "bbb"
                 }
             }
         }
-        replicas: 2
+        replicas: 1
     }
     accessories: {
         # Add the monitoring configuration backed by Prometheus
