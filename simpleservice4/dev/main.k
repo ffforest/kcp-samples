@@ -5,7 +5,7 @@ import monitoring as m
 import network as n
 import opsrule as o
 import mysql as mysql
-import k8smanifest as km
+import k8s_manifest as km
 
 helloworld: ac.AppConfiguration {
     workload: svc.Service {
