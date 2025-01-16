@@ -3,6 +3,9 @@ import service as svc
 import service.container as c
 import monitoring as m
 import network as n
+import opsrule as o
+import mysql as mysql
+import k8smanifest as km
 
 helloworld: ac.AppConfiguration {
     workload: svc.Service {
@@ -33,6 +36,13 @@ helloworld: ac.AppConfiguration {
                   port: 80
               }
             ]
+        }
+        "opsrule": o.OpsRule {
+            maxUnavailable: "30%"
+        }
+        "mysql": mysql.MySQL {
+            type: "local"
+            version: "8.0"
         }
     }
 }
