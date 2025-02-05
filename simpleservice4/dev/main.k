@@ -40,9 +40,5 @@ helloworld: ac.AppConfiguration {
         "opsrule": o.OpsRule {
             maxUnavailable: "30%"
         }
-        "mysql": mysql.MySQL {
-            type: "local"
-            version: "8.0"
-        }
     }
 }
